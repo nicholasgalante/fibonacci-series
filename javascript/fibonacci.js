@@ -1,9 +1,9 @@
 function fibonacci(num) {
   const fibArr = [0,1];
-  for (let i = 2; i < 30; i++) {
+  for (let i = 2; i < num+1; i++) {
     fibArr.push(fibArr[i-1] + fibArr[i-2])
   }
-  return fib[num];
+  return fibArr[num];
 }
 
 
